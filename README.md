@@ -23,7 +23,7 @@ https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-c
 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.1
 
 •Configuración   
-•Archivos de Configuración y Variables de Entorno(tablita en lugar de texto)?
+•Archivos de Configuración y Variables de Entorno
 
 •Startup.cs file
 https://docs.microsoft.com/es-es/aspnet/core/fundamentals/startup?view=aspnetcore-3.1
@@ -38,7 +38,7 @@ https://www.tektutorialshub.com/asp-net-core/asp-net-core-program-cs/
 • Que son RESTFUL Services 
 •Swagger, Uso de Postman  
 https://docs.microsoft.com/es-es/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1
-•Qué son MicroServicios  (GUS PERI)  
+•Qué son MicroServicios  
 https://docs.microsoft.com/es-es/dotnet/architecture/microservices/
 
 
