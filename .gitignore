@@ -1,0 +1,15 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/1 - Inyeccion de Dependencia/obj
+/1 - Inyeccion de Dependencia/bin/Debug/netcoreapp3.1
+/2 - Program y Startup/obj
+/3 - Configuracion/obj
+/4 - Servicio Rest/obj
+/5 - Swagger y Postman/bin/Debug/netcoreapp3.1
+/5 - Swagger y Postman/obj
+/6 - Logging/bin/Debug/netcoreapp3.1
+/6 - Logging/obj
+/7 - Creacion de Midleware/bin/Debug/netcoreapp3.1
+/7 - Creacion de Midleware/obj
