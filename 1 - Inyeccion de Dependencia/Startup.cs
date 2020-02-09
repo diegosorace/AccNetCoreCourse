@@ -22,8 +22,8 @@ namespace _1___Inyeccion_de_Dependencia
 
             //Como crear nuestras propias inyecciones de dependencia.
             services.AddTransient<IMiInterface, MiClaseQueImplementaInterface>(); //<-- Entrega una nueva instancia cada ves que la pedimos.
-            services.AddSingleton<IMiInterface, MiClaseQueImplementaInterface>(); //<-- Genera una instacia por request y entrega esa misma a lo largo de la vida del request
-            services.AddScoped<IMiInterface, MiClaseQueImplementaInterface>();    //<-- Genera una instacia por servicio y entrega la misma a todos los request que llegan.
+            services.AddSingleton<IMiInterface, MiClaseQueImplementaInterface>(); //<-- Genera una instancia por request y entrega esa misma a lo largo de la vida del request
+            services.AddScoped<IMiInterface, MiClaseQueImplementaInterface>();    //<-- Genera una instancia por servicio y entrega la misma a todos los request que llegan.
 
             //Como se declaran si se usan clases e interfaces genericas.
             services.AddTransient(typeof(IMiInterfaceGenerica<>), typeof(MiClaseQueImplementaInterfaceGenerica<>));
