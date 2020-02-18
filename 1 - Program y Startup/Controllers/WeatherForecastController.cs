@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using _1___Inyeccion_de_Dependencia.Clases;
+using _1___Program_y_Startup.Clases;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace _1___Inyeccion_de_Dependencia.Controllers
+namespace _1___Program_y_Startup.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -19,10 +19,11 @@ namespace _1___Inyeccion_de_Dependencia.Controllers
         private readonly ILogger<WeatherForecastController> _logger;
         private readonly IMiInterface _miInterface;
         private readonly IMiInterfaceGenerica<WeatherForecastController> _miInterfaceGenerica;
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, IMiInterface miInterface, IMiInterfaceGenerica<WeatherForecastController> miInterfaceGenerica) //<--Pido las inyecciones
+
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IMiInterface miInterface, IMiInterfaceGenerica<WeatherForecastController> miInterfaceGenerica)
         {
             _logger = logger;
-            _miInterface = miInterface; //<-- Las encapsulamos para usar en la clase.
+            _miInterface = miInterface; 
             _miInterfaceGenerica = miInterfaceGenerica;
         }
 

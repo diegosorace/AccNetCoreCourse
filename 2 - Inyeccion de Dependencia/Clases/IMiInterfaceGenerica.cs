@@ -1,4 +1,4 @@
-﻿namespace _1___Inyeccion_de_Dependencia.Clases
+﻿namespace _2___Inyeccion_de_Dependencia.Clases
 {
     public interface IMiInterfaceGenerica<T>
     {

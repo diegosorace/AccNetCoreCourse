@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_2___Program_y_Startup</RootNamespace>
+    <RootNamespace>_1___Program_y_Startup</RootNamespace>
   </PropertyGroup>
 
 

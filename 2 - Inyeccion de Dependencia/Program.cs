@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace _2___Program_y_Startup
+namespace _2___Inyeccion_de_Dependencia
 {
-    public class Program // <-- Clase inicial de ejecucion
+    public class Program
     {
-        public static void Main(string[] args) // <-- metodo principal de ejecucion, donde auto Hostea la app, y se configura.
+        public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }

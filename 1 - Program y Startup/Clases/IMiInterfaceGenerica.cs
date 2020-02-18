@@ -1,4 +1,4 @@
-﻿namespace _2___Program_y_Startup.Clases
+﻿namespace _1___Program_y_Startup.Clases
 {
     public interface IMiInterfaceGenerica<T>
     {

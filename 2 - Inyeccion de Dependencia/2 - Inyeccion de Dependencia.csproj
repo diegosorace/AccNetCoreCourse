@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_1___Inyeccion_de_Dependencia</RootNamespace>
+    <RootNamespace>_2___Inyeccion_de_Dependencia</RootNamespace>
   </PropertyGroup>
 
 

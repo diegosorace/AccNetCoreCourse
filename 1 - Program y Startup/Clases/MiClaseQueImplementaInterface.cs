@@ -1,4 +1,4 @@
-﻿namespace _1___Inyeccion_de_Dependencia.Clases
+﻿namespace _1___Program_y_Startup.Clases
 {
     public class MiClaseQueImplementaInterface : IMiInterface
     {
